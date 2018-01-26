@@ -1,0 +1,13 @@
+|Practica1
+UART => ~NO_FANOUT~
+salidas[0] <= salidas[0].DB_MAX_OUTPUT_PORT_TYPE
+salidas[1] <= salidas[1].DB_MAX_OUTPUT_PORT_TYPE
+salidas[2] <= salidas[2].DB_MAX_OUTPUT_PORT_TYPE
+salidas[3] <= salidas[3].DB_MAX_OUTPUT_PORT_TYPE
+salidas[4] <= salidas[4].DB_MAX_OUTPUT_PORT_TYPE
+salidas[5] <= salidas[5].DB_MAX_OUTPUT_PORT_TYPE
+salidas[6] <= salidas[6].DB_MAX_OUTPUT_PORT_TYPE
+salidas[7] <= salidas[7].DB_MAX_OUTPUT_PORT_TYPE
+led_par <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
