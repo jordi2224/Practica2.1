@@ -42,6 +42,15 @@ architecture behavioural of Practica1 is
 	);
 	end component;
 	
+	component Registro port (
+	enable, reset_r : in std_logic;
+	clk : in std_logic;
+	entrada : in std_logic;
+	overflow : out std_logic;
+	salidas : out std_logic_vector (8 downto 0)
+	);
+	end component;
+	
 	
 begin
 
